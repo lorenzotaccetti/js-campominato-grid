@@ -53,7 +53,7 @@ button{
 main{
     width: 100%;
     height: calc(100% - 200px);
-    background-color: #7fffd4;
+    background-color: #7fffd3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@ main{
 }
 
 .box.active{
-    background-color: #6495ed;
+    background-color: #6495ec;
     color: white;
 }
 

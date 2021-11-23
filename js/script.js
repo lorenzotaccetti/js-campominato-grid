@@ -14,6 +14,7 @@ buttonPlay.addEventListener('click', function() {
 
     // Importo il valore della difficoltà scelta dall'utente
     const userDifficulty = document.getElementById('difficolta').value;
+    
     // Con un if divido nei casi possibili
     if( userDifficulty === 'easy') {
         // Se è easy popolo il contenitore con 100 celle
@@ -27,7 +28,7 @@ buttonPlay.addEventListener('click', function() {
             mainContainer.appendChild(newBox);
             // Aggiungo l'evento al box
             newBox.addEventListener('click', function() {
-                this.classList.add('active');
+                this.classList.toggle('active');
             });
         }
     } else if ( userDifficulty === 'hard') {
@@ -43,7 +44,7 @@ buttonPlay.addEventListener('click', function() {
             mainContainer.appendChild(newBox);
             // Aggiungo l'evento al box
             newBox.addEventListener('click', function() {
-                this.classList.add('active');
+                this.classList.toggle('active');
             });
         }
     } else if ( userDifficulty === 'crazy') {
@@ -58,7 +59,7 @@ buttonPlay.addEventListener('click', function() {
             mainContainer.appendChild(newBox);
             // Aggiungo l'evento al box
             newBox.addEventListener('click', function() {
-                this.classList.add('active');
+                this.classList.toggle('active');
             });
         }
     }
