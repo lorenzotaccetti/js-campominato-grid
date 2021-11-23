@@ -59,7 +59,7 @@ main{
     justify-content: center;
 }
 
-.main-container{
+#main-container{
     width: 600px;
     height: 600px;
     display: flex;
@@ -76,6 +76,16 @@ main{
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+}
+
+.box.width-9{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.box.width-7{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 .box.active{
