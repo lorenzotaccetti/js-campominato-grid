@@ -57,6 +57,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: auto;
 }
 
 #main-container{
@@ -100,4 +101,5 @@ footer{
     line-height: 100px;
     margin-left: 50px;
     font-size: 25px;
+    z-index: 2;
 }
